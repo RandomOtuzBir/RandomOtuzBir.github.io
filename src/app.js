@@ -12,8 +12,8 @@ function makeRandom31() {
     random31 += characters.charAt(Math.floor(Math.random() * charactersLength));
   }
   let randomDiv = document.getElementById("randomDiv");
-  //randomDiv.innerHTML = random31;
-  randomDiv.value = random31;
+  randomDiv.innerHTML = random31;
+  //randomDiv.value = random31;
   console.log("anan");
   //document.write(random31);
 }
@@ -25,8 +25,8 @@ function makeRandom331() {
     random31 += characters.charAt(Math.floor(Math.random() * charactersLength));
   }
   let randomDiv = document.getElementById("randomDiv");
-  //randomDiv.innerHTML = random31;
-  randomDiv.value = random31;
+  randomDiv.innerHTML = random31;
+  //randomDiv.value = random31;
   console.log("anan");
   //document.write(random31);
 }
@@ -38,8 +38,8 @@ function makeRandomWithLength() {
     random31 += characters.charAt(Math.floor(Math.random() * charactersLength));
   }
   let randomDiv = document.getElementById("randomDiv");
-  //randomDiv.innerHTML = random31;
-  randomDiv.value = random31;
+  randomDiv.innerHTML = random31;
+  //randomDiv.value = random31;
   console.log("anan");
   //document.write(random31);
 }
